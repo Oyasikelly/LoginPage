@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+  font-family: sans-serif;
+  background: linear-gradient(to left, rgb(239, 246, 252), rgb(217, 223, 228));
+  background-repeat: no-repeat;
+}
+#wrapper {
+  display: flex;
+  /* border-right: 10px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+    border-left: 2px solid white;
+    border-top: 2px solid wite; */
+  background-color: white;
+  box-shadow: 8px 7px 10px 6px rgb(156, 158, 160);
+  border-radius: 20px;
+  width: fit-content;
+}
+#login {
+  /* border: 2px solid red; */
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 5px 2px 5px 5px rgb(250, 251, 252);
+  border-radius: 20px;
+  padding: 1.5rem 3rem;
+  border-right: 1px solid rgb(239, 246, 252);
+  background-color: rgb(253, 255, 255);
+}
+.inputs div {
+  margin-bottom: 1rem;
+}
+.inputs div:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+.inputs div:active {
+  border: 1px solid white;
+}
+.inputs .Contact,
+.Email,
+.Password {
+  display: flex;
+  box-shadow: 3px 2px 8px 2px rgb(176, 177, 177);
+  border-radius: 1.5rem;
+}
+.inputs .Contact img {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.inputs .Email img {
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.inputs .Password img {
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+input {
+  width: 90%;
+  border: none;
+  outline: none;
+  border-radius: 0 1.5rem 1.5rem 0;
+  font-size: 10px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+button {
+  width: 80%;
+  margin-top: 1.5rem;
+  box-shadow: 5px 2px 5px 1px rgb(186, 189, 189);
+  border-radius: 40px;
+  border: none;
+  padding: 0.4rem;
+  background-color: rgb(233, 144, 42);
+  font-weight: 700;
+}
+button:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+button:active {
+  opacity: 0.7;
+}
+.social_icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social_icons div img {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+p {
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+}
